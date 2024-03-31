@@ -5,15 +5,12 @@
 # 입력은 총 28줄로 각 제출자(학생)의 출석번호 n(1 ≤ n ≤ 30)가 한 줄에 하나씩 주어진다. 출석번호에 중복은 없다.
 
 compareList = []
-inputList = []
 
 compareList = [i for i in range(1, 31)]
 
 for i in range(1, 29):
     num = int(input())
     compareList.remove(num)
-
-
 print(*compareList)
 
 # print(min(compareList))
